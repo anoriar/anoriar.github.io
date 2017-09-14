@@ -60,3 +60,8 @@ $(document).ready(function() {
 	
 });
 
+$(window).load(function(){
+	$('h1, h2').animated('fadeInUp', 'fadeInDown');
+	$('.main_content .tiz_item').animated('fadeInRight', 'fadeOutRight');
+});
+
